@@ -7,7 +7,7 @@ import type { PlayUrlResponse } from '../services/types';
  */
 export async function buildDashMpdUri(playData: PlayUrlResponse, qn: number): Promise<string> {
   const xml = buildMpdXml(playData, qn);
-  const path = `${FileSystem.cacheDirectory}bili_dash.mpd`;
+  const path = `${FileSystem.cacheDirectory}bili_dash_${qn}.mpd`;
   await FileSystem.writeAsStringAsync(path, xml, { encoding: FileSystem.EncodingType.UTF8 });
   return path;
 }

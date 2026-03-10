@@ -57,6 +57,7 @@ export function NativeVideoPlayer({
     <View style={[styles.container, style]}>
       {resolvedUrl ? (
         <Video
+          key={resolvedUrl}
           ref={videoRef}
           source={isDash
             ? { uri: resolvedUrl, type: 'mpd', headers: BILIBILI_HEADERS }
