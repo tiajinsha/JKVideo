@@ -4,7 +4,7 @@
     "slug": "bilibili-app",
     "version": "1.0.0",
     "scheme": "bilibili",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -37,7 +37,8 @@
     },
     "plugins": [
       "expo-router",
-      "react-native-video"
+      "react-native-video",
+      "expo-screen-orientation"
     ],
     "experiments": {
       "typedRoutes": true

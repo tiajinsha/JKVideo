@@ -19,6 +19,7 @@
     "expo-file-system": "~55.0.10",
     "expo-linear-gradient": "~55.0.8",
     "expo-router": "~55.0.4",
+    "expo-screen-orientation": "~55.0.8",
     "expo-status-bar": "~55.0.4",
     "expo-system-ui": "~55.0.9",
     "react": "19.2.0",
