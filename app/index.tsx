@@ -432,7 +432,9 @@ export default function HomeScreen() {
             <Ionicons name="search" size={14} color="#999" />
             <Text style={styles.searchPlaceholder}>搜索视频、UP主...</Text>
           </TouchableOpacity>
-          <DownloadProgressBtn onPress={() => router.push('/downloads' as any)} />
+          <DownloadProgressBtn
+            onPress={() => router.push("/downloads" as any)}
+          />
         </Animated.View>
 
         <View style={styles.tabRow}>
