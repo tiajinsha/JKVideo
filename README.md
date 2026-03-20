@@ -37,6 +37,10 @@
   </tr>
 </table>
 
+## 演示视频
+
+https://github.com/tiajinsha/JKVideo/releases/download/v1.0.0/6490dcd9dba9a243a7cd8f00359cc285.mp4
+
 ---
 
 ## 功能亮点
