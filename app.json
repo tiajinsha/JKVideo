@@ -2,7 +2,7 @@
   "expo": {
     "name": "JKVideo",
     "slug": "jsvideo",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "scheme": "bilibili",
     "orientation": "default",
     "icon": "./assets/icon.png",
